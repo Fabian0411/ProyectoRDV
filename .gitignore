@@ -1,0 +1,36 @@
+# Protección de Datos (GitHub)
+data/
+*.npy
+*.json
+
+# Modelos Pesados y Logs
+checkpoints/
+*.pth
+*.log
+
+# Basura de Python
+__pycache__/
+*.pyc
+
+# Entornos
+venv/
+env/
+
+# Gráficas y Video Temporales
+plots/
+*.mp4
+*.avi
+
+# Carpeta rendezvous (vendored, no se versiona)
+rendezvous/
+
+# Código legacy / archivado
+scripts/legacy/
+Legacy/
+
+# Sistema operativo / editor
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.lnk
