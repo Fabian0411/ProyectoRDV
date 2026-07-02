@@ -10,7 +10,7 @@
 
 ---
 
-## 📖 Descripción
+##  Descripción
 
 **SpatioTemporalRDV** es una reimplementación modular y una extensión arquitectónica del modelo
 **Rendezvous** (Nwoye et al., 2022) para el reconocimiento de tripletes quirúrgicos sobre el dataset
@@ -46,17 +46,17 @@ El resultado es un pipeline que cabe en 3 GB de VRAM (batch físico de 4 con acu
 
 ---
 
-## 📊 Resultados (Test Fold 1, CholecT50)
+##  Resultados (Test Fold 1, CholecT50)
 
 | Métrica | RDV Original [1] (5-fold, clúster) | RDV Espacial (este trabajo) | **SpatioTemporalRDV (este trabajo)** |
 |---|:---:|:---:|:---:|
 | AP Instrumentos | 92.00 % | 70.78 % | **77.56 %** |
 | AP Verbos | 60.70 % | 48.70 % | **53.59 %** |
-| AP Órganos | 38.30 % | 18.10 % | **38.45 % 🏆** |
+| AP Órganos | 38.30 % | 18.10 % | **38.45 % ** |
 | mAP Triplete | 29.90 % | 2.06 % | **13.38 %** |
 | Hardware | Clúster multi-GPU | GTX 1050 (3 GB) | GTX 1050 (3 GB) |
 
-> 🏆 **La cabeza de fusión espacio-temporal supera el estado del arte del artículo original en AP de
+>  **La cabeza de fusión espacio-temporal supera el estado del arte del artículo original en AP de
 > Órganos (38.45 % vs. 38.30 %)**, entrenando en una fracción del hardware usado por los autores
 > originales.
 
@@ -68,7 +68,7 @@ El resultado es un pipeline que cabe en 3 GB de VRAM (batch físico de 4 con acu
 
 ---
 
-## 🗂️ Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 SpatioTemporalRDV/
@@ -96,7 +96,7 @@ SpatioTemporalRDV/
 
 ---
 
-## ⚙️ Instalación y Uso
+##  Instalación y Uso
 
 ### Requisitos
 
@@ -220,7 +220,7 @@ del Fold 1 e imprimen el AP desglosado por componente junto al mAP global del tr
 
 ---
 
-## ⚠️ Limitaciones conocidas
+##  Limitaciones conocidas
 
 - El entrenamiento completo (Fases A–E) toma entre 15–20 horas en una GTX 1050 de 3 GB.
 - Los resultados corresponden a un único fold (Fold 1); no se realizó el 5-fold cross-validation
@@ -236,7 +236,7 @@ del Fold 1 e imprimen el AP desglosado por componente junto al mAP global del tr
 
 ---
 
-## 🙏 Agradecimientos y Citación
+##  Agradecimientos y Citación
 
 Esta arquitectura extiende el trabajo original de **CAMMA (University of Strasbourg)**. El modelo base
 Rendezvous, el dataset CholecT50 y la métrica oficial `ivtmetrics` pertenecen a sus autores originales;
@@ -258,7 +258,7 @@ este repositorio únicamente aporta la etapa de fusión espacio-temporal descrit
 - Dataset: [CAMMA-public/cholect50](https://github.com/CAMMA-public/cholect50)
 - Métrica oficial: [`ivtmetrics`](https://pypi.org/project/ivtmetrics/)
 
-## 📄 Licencia
+##  Licencia
 
 Código de investigación académica sin fines comerciales, distribuido bajo
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), en línea con la licencia del
