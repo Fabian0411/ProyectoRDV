@@ -52,7 +52,7 @@ El resultado es un pipeline que cabe en 3 GB de VRAM (batch físico de 4 con acu
 |---|:---:|:---:|:---:|
 | AP Instrumentos | 92.00 % | 70.78 % | **77.56 %** |
 | AP Verbos | 60.70 % | 48.70 % | **53.59 %** |
-| AP Órganos | 38.30 % | 18.10 % | **38.45 % ** |
+| AP Órganos | 38.30 % | 18.10 % | **38.45 %** |
 | mAP Triplete | 29.90 % | 2.06 % | **13.38 %** |
 | Hardware | Clúster multi-GPU | GTX 1050 (3 GB) | GTX 1050 (3 GB) |
 
