@@ -87,6 +87,7 @@ SpatioTemporalRDV/
 │   └── evaluador_rdv_puro.py                                  # Evaluación del modelo espacial
 │
 ├── data/CholecT50/           # Dataset (no versionado — ver .gitignore)
+├── docs/                     # Reporte extenso del proyecto
 ├── checkpoints/              # Pesos entrenados (no versionado — ver .gitignore)
 ├── plots/                    # Gráficas y matrices de confusión generadas
 ├── evaluador_map.py          # Evaluación oficial (ivtmetrics) del modelo completo
